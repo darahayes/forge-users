@@ -1,6 +1,6 @@
 {
   "name": "progress-users",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "users service for progress-backend",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/darragh-hayes/progress-users",
   "dependencies" : {
-    "seneca" : "^0.9.3",
-    "seneca-mongo-store": "^0.2.0",
+    "seneca" : "1.3.0",
+    "seneca-mongo-store": "darragh-hayes/seneca-mongo-store",
     "seneca-user": "^0.2.10"
   }
 }
