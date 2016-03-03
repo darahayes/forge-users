@@ -6,6 +6,6 @@ module.exports = {
   },
   'service': {
     host: process.env.HOST || '0.0.0.0',
-    port : process.env.CALENDAR_PORT || 9003
+    port : process.env.USERS_PORT || 9003
   }
 }
