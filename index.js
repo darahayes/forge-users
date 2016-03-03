@@ -1,9 +1,7 @@
-var seneca = require('seneca')()
-seneca.use('mongo-store', {
-	name: 'progress',
-	host: '127.0.0.1',
-	port: 27017
-});
-seneca.use('user');
+var config = require('./config')
+var seneca = require('seneca')();
 
-seneca.listen();
+seneca.use('mongo-store', config.mongo);
+
+seneca.use('user');
+seneca.listen(config.service);
