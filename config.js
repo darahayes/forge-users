@@ -5,7 +5,7 @@ module.exports = {
     port: process.env.MONGO_PORT || 27017
   },
   'service': {
-    host: process.env.HOST || '0.0.0.0',
+    host: process.env.USERS_HOST || '127.0.0.1',
     port : process.env.USERS_PORT || 9003
   }
 }
