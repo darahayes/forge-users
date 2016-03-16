@@ -1,21 +1,21 @@
 {
-  "name": "progress-users",
+  "name": "forge-users",
   "version": "0.1.0",
-  "description": "users service for progress-backend",
+  "description": "users service for the Forge app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/darragh-hayes/progress-users.git"
+    "url": "https://github.com/darragh-hayes/forge-users.git"
   },
   "author": "Darragh Hayes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/darragh-hayes/progress-users/issues"
+    "url": "https://github.com/darragh-hayes/forge-users/issues"
   },
-  "homepage": "https://github.com/darragh-hayes/progress-users",
+  "homepage": "https://github.com/darragh-hayes/forge-users",
   "dependencies" : {
     "seneca" : "1.3.0",
     "seneca-mongo-store": "darragh-hayes/seneca-mongo-store",

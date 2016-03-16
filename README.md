@@ -1,3 +1,2 @@
-# progress-users
-users service for progress
-![codeship](https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master)
+# forge-users
+users service for [forge](https://github.com/darragh-hayes/forge-app)
