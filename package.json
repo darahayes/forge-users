@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/darragh-hayes/forge-users",
   "dependencies" : {
-    "seneca" : "1.3.0",
+    "seneca" : "3.17.0",
     "seneca-mongo-store": "darragh-hayes/seneca-mongo-store",
     "seneca-user": "^0.2.10"
   }
